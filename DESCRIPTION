@@ -1,16 +1,15 @@
 Package: rcivicapi
 Title: Access a Civic API Endpoint from R
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "M. Edward (Ed)",
-           family = "borasky",
-           role = c("aut", "cre"),
-           email = "ed.borasky@hackoregon.org")
+Authors@R: person("M. Edward (Ed)", "Borasky", role = c("aut", "cre"), 
+    email = "ed.borasky@hackoregon.org")
+Maintainer: M. Edward (Ed) Borasky <ed.borasky@hackoregon.org>
 Description: `rcivicapi` accesses an endpoint of the Civic Software Foundation API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
 Imports: 
     httr,
     jsonlite

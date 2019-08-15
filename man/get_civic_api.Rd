@@ -14,9 +14,9 @@ get_civic_api(url, verbose)
 \value{
 a list of two items
 \itemize{
-  \item `status_code` integer: the HTTP status code (200 for success)
-  \item `response`: if `status_code` == 200, the JSON object from the API;
-    otherwise, the raw text response.
+\item \code{status_code} integer: the HTTP status code (200 for success)
+\item \code{response}: if \code{status_code} == 200, the JSON object from the API;
+otherwise, the raw text response.
 }
 }
 \description{
