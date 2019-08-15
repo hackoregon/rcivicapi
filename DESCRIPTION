@@ -1,14 +1,14 @@
 Package: rcivicapi
-Title: What the Package Does (One Line, Title Case)
+Title: Access a Civic API Endpoint from R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "M. Edward (Ed)",
+           family = "borasky",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "ed.borasky@hackoregon.org",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: `rcivicapi` accesses an endpoint of the Civic Software Foundation API.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

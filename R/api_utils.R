@@ -10,15 +10,24 @@
 #' @param verbose print status info
 #' @return a list of two items
 #' \itemize{
-#'   \item status_code the HTTP status code (200 for success)
-#'   \item response if status_code == 200, the JSON object;
-#'     otherwise, the raw text.
+#'   \item `status_code` integer: the HTTP status code (200 for success)
+#'   \item `response`: if `status_code` == 200, the JSON object from the API;
+#'     otherwise, the raw text response.
 #' }
 #' @examples
 #' \dontrun{
-#' response <- rcivicapi::get_civic_api(
-#' "https://api.mysportsfeeds.com/v2.0/pull/nba/2018-playoff/games.json"
-#' )}
+#' url_base <- "http://service.civicpdx.org/transportation2019/v1/toad"
+#' endpoint <- "busPassengerStops"
+#' query <- "?limit=10000&lines=10,14&stops=3637,3641,3633&time_range=9,10&service_key=W"
+#' url <- paste(url_base, endpoint, query, sep = "/")
+#' print(url)
+#' response <- rcivicapi::get_civic_api(url, verbose = TRUE)
+#' if (response[["status_code"]] == 200) {
+#'   View(response[["data"]][["results"]][["features"]])
+#' } else {
+#'   print(response)
+#' }
+#' }
 
 get_civic_api <- function(url, verbose) {
 
