@@ -5,8 +5,7 @@ Authors@R:
     person(given = "M. Edward (Ed)",
            family = "borasky",
            role = c("aut", "cre"),
-           email = "ed.borasky@hackoregon.org",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "ed.borasky@hackoregon.org")
 Description: `rcivicapi` accesses an endpoint of the Civic Software Foundation API.
 License: MIT + file LICENSE
 Encoding: UTF-8
