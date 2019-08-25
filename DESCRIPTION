@@ -13,3 +13,7 @@ Roxygen: list(markdown = TRUE)
 Imports: 
     httr,
     jsonlite
+Suggests: 
+    devtools,
+    pkgdown,
+    roxygen2
