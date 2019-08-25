@@ -10,6 +10,8 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/hackoregon/rcivicapi
+BugReports: https://github.com/hackoregon/rcivicapi/issues
 Imports: 
     httr,
     jsonlite
