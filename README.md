@@ -9,4 +9,4 @@ if (!require(remotes) install.packages("remotes"))
 remotes::install_github("znmeb/rcivicapi")
 ```
 ## Documentation
-<https://znmeb.github.io/rcivicapi/>
+<https://hackoregon.github.io/rcivicapi/>
