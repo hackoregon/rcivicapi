@@ -1,10 +1,11 @@
 Package: rcivicapi
-Title: Access a Civic API Endpoint from R
+Title: Civic Platform R Utilities
 Version: 0.0.0.9000
 Authors@R: person("M. Edward (Ed)", "Borasky", role = c("aut", "cre"), 
     email = "ed.borasky@hackoregon.org")
 Maintainer: M. Edward (Ed) Borasky <ed.borasky@hackoregon.org>
-Description: `rcivicapi` accesses an endpoint of the Civic Software Foundation API.
+Description: `rcivicapi` Civic platform utilities, for example, accessing
+    an endpoint of the Civic Software Foundation API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -13,8 +14,11 @@ Roxygen: list(markdown = TRUE)
 URL: https://github.com/hackoregon/rcivicapi
 BugReports: https://github.com/hackoregon/rcivicapi/issues
 Imports: 
+    dplyr,
     httr,
-    jsonlite
+    jsonlite,
+    tidycensus,
+    tigris
 Suggests: 
     devtools,
     pkgdown,
